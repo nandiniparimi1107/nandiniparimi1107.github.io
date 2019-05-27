@@ -166,3 +166,93 @@ a {
   color: #000;
   opacity: 0.9;
 }
+
+section {
+  display: block;
+}
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.section-separator {
+  padding: 100px 0;
+}
+
+.mh-about .mh-about-inner {
+  padding-left: 50px;
+}
+
+.mh-about .mh-about-inner p {
+  margin-bottom: 30px;
+}
+
+.mh-about-tag {
+  word-break: break-all;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.mh-about-tag ul li {
+  margin: 0px 6px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  padding: 4px 0px;
+  display: inline-block;
+}
+
+.mh-about-tag ul li span {
+  border: 1px solid #E91E63;
+}
+
+.mh-about-tag ul li span {
+  border: 1px solid #0bceaf;
+  padding: 4px 10px;
+  border-radius: 4px;
+}
+
+.white-vertion h1, .white-vertion h2, .white-vertion h3, .white-vertion h4, .white-vertion h5, .white-vertion h6, .white-vertion p, .white-vertion address, .white-vertion span, .white-vertion q {
+  opacity: 0.8;
+}
+
+.mh-about .mh-about-inner .btn {
+  margin-top: 20px;
+}
+
+.btn:not(:disabled):not(.disabled) {
+  cursor: pointer;
+}
+
+.btn.btn-fill {
+  background-color: #0bceaf;
+  color: #fff;
+}
+
+.btn {
+  outline: 0;
+}
+
+.btn {
+  -moz-transition: color 0.3s ease;
+  -o-transition: color 0.3s ease;
+  -webkit-transition: color 0.3s ease;
+  transition: color 0.3s ease;
+  outline: 0;
+  padding: 8px 30px;
+  font-weight: bold;
+  border-radius: 20px;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.mh-about-img{
+  height:250px;
+  width:500px;
+}
+
